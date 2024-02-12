@@ -9940,3 +9940,23 @@ a.text-dark:hover {
         border: 1px solid #ddd !important
     }
 }
+
+
+.safron-img{
+    width: 100% ;
+    height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    background-image: url(../public/images/Saffron-login.jpg);
+}
+
+ @media (max-width:508px){
+    .safron-img{
+width: 100%;
+ height: 100vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+    }
+ }
